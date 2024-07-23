@@ -7,7 +7,7 @@ const cors = require('cors');
 const app = express();
 app.use(
   cors({
-    origin: "https://fullstackfinalproject-b2gn.onrender.com/",
+    origin: "https://main--phenomenal-meerkat-481ce0.netlify.app",
   })
 );
 app.use(express.json());
