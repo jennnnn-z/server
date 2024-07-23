@@ -5,9 +5,11 @@ const fs = require('fs');
 const cors = require('cors');
 
 const app = express();
-app.use(cors({
-    origin: 'http://localhost:3000'
-}));
+app.use(
+  cors({
+    origin: "https://fullstackfinalproject-b2gn.onrender.com/",
+  })
+);
 app.use(express.json());
 
 const port = 3005;
